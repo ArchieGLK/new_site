@@ -1,0 +1,456 @@
+body{
+
+background: url(osb.jpeg);
+background-repeat: repeat-y;
+background-size: cover;
+
+}
+
+
+
+.header{
+
+width: 100%;
+height: 70px;
+background: url(sanya.jpg);
+margin-left: 0;
+margin-right: 0;
+margin-top: 0;
+margin-bottom: 10px;
+box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+
+}
+
+.inner_header{
+display: block;
+width: 600px;
+height: 100%;
+margin: 0 auto;
+
+
+
+}
+
+.logo{
+height: 100%;
+display: table;
+float: left;
+
+
+}
+
+
+.logo h1{
+color: white;
+height: 100%;
+display: table-cell;
+vertical-align: middle;;
+font-family: 'Kanit', sans-serif;
+font-size: 32px;
+font-weight: 200;
+font-weight: lighter;
+}
+
+
+.logo h1 span{
+font-weight: 900;
+font-style: italic;
+
+}
+
+
+.navigation{
+
+float: right;
+height: 100%;
+
+
+}
+
+
+.navigation a{
+
+display: table;
+height: 100%;
+float: left;
+padding: 10px 20px;
+
+
+
+
+}
+
+
+
+.navigation a li{
+vertical-align: middle;
+font-family:  'Kanit', sans-serif;
+color: #fff;
+
+
+}
+
+.zag{
+
+  text-align: center;
+  background: #FFF;
+  display:  block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 5PX;
+   padding-bottom: 5px;
+   width: 100%;
+  width: 300px;
+  border: #c2beb3 5px solid;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+
+}
+
+.title2{
+margin-top: 5px;
+  text-align: center;
+  background: #FFF;
+  display:  block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 5PX;
+   padding-bottom: 5px;
+   width: 100%;
+  width: 300px;
+  border: #c2beb3 5px solid;
+font-size: 20px;
+border-radius: 10px;
+box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+
+}
+
+
+.photos{
+  display: flex;
+justify-content: center;
+margin-top: 10px;
+
+
+
+
+}
+
+
+.photo1{
+  display: flex;
+  justify-content: center;
+margin-right: 40px;
+  height: 400px;
+border: #c2beb3 5px solid;
+border-radius: 10px;
+box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+}
+
+.photo2{
+
+  display: flex;
+  justify-content: center;
+  border: #c2beb3 5px solid;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+}
+
+
+.photodescription{
+  margin-top: 5px;
+    text-align: center;
+    background: #FFF;
+    display:  block;
+     margin-left: auto;
+     margin-right: auto;
+     padding-top: 5PX;
+     padding-bottom: 5px;
+     width: 100%;
+    width: 300px;
+    border: #c2beb3 5px solid;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+
+
+}
+
+
+
+.facts{
+  display: flex;
+justify-content: center;
+margin-top: 10px;
+border-radius: 10px;
+
+
+}
+
+
+.facts1{
+
+  display: inline-block;
+  justify-content: center;
+margin-right: 40px;
+
+border: #836749 5px solid;
+margin-top: 5px;
+  text-align: center;
+  background: #FFF;
+  display:  block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 5PX;
+   padding-bottom: 5px;
+   width: 100%;
+  width: 300px;
+  border: #c2beb3 5px solid;
+font-size: 20px;
+padding: 20px;
+max-width: 250px;
+border-radius: 10px;
+box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+
+}
+
+.facts2{
+
+  display: inline-block;
+  justify-content: center;
+  border: #836749 5px solid;
+
+  margin-top: 5px;
+    text-align: center;
+    background: #FFF;
+    display:  block;
+     margin-left: auto;
+     margin-right: auto;
+     padding-top: 5PX;
+     padding-bottom: 5px;
+     width: 100%;
+    width: 300px;
+    border: #c2beb3 5px solid;
+  font-size: 20px;
+  padding: 20px;
+max-width: 250px;
+border-radius: 10px;
+box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+
+
+}
+
+
+.concrete{
+
+  display: flex;
+  justify-content: center;
+margin-right: 40px;
+  height: 400px;
+margin-top: 50px;
+font-size: 30px;
+font-weight: bold;
+color: #fff;
+
+
+}
+
+
+.lapa{
+
+display: flex;
+height: 300px;
+justify-content: center;
+margin-top: 20px;
+
+
+}
+
+.lapadesc{
+
+background: linear-gradient(180deg, #fff, #949494);
+  display: grid;
+  justify-content: center;
+  width: 100%;
+padding: 20px;
+max-width: 250px;
+margin: 0 auto;
+border: #fff 5px solid;
+text-align: center;
+margin-bottom: 20px;
+box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+
+}
+
+
+
+.car{
+
+display: flex;
+height: 169px;
+justify-content: center;
+margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+.privet{
+margin-top: 20px;
+background: linear-gradient(180deg, #fff, #949494);
+text-align: center;
+width: 100%;
+max-width: 250px;
+margin: 0 auto;
+border: #fff 5px solid;
+padding: 20px;
+justify-content: center;
+display: grid;
+box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+
+
+}
+
+
+.pes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+
+
+
+}
+.mike{
+display: flex;
+height: 243px;
+border: #fff 5px solid;
+box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+background-color: #fff;
+
+}
+.myth{
+display: flex;
+border: #fff 5px solid;
+box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+background-color: #fff;
+}
+
+
+
+
+
+
+.sections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -50px 50px 30px rgba(0,0,0,0.3);
+}
+
+.sec1{
+  background: linear-gradient(180deg, #fff, #949494);
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  border: #fff 5px solid;
+  text-align: center;
+  box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+
+}
+.sec1 span{
+font-weight: bold;
+
+}
+
+
+.sec2{
+  background: linear-gradient(180deg, #fff, #949494);
+  height: 400px;
+  width: 400px;
+  margin: 10px;
+  border: #fff 5px solid;
+  text-align: center;
+  box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+}
+.sec3{
+  background: linear-gradient(180deg, #fff, #949494);
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  border: #fff 5px solid;
+  text-align: center;
+  box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+}
+
+.foot{
+display: flex;
+margin-bottom: 0;
+background: url(sanya.jpg);
+height: 250px;
+width: 100%;
+margin: 0 auto;
+
+}
+
+.inner_footer{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.insta{
+
+height: 300px;
+width: 200px;
+margin: 10px;
+
+
+
+}
+
+.insta h4{
+
+
+
+    font-family: 'Kanit', sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    font-weight: lighter;
+    color: #fff;
+    background-color: red;
+
+}
+.insta span{
+
+  font-style: italic;
+
+}
+
+.vk{
+
+  height: 300px;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+
+
+}
+.of{
+
+  height: 300px;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+
+}
